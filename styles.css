@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:wght@300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Ancizar Serif', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero__image {
+    background: linear-gradient(to right top, #42066c, #7b156c, #a4356b, #c35a6e, #db8178, #df8a77, #e19378, #e39d79, #de8558, #d47548, #b85024, #8f2a06);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 0 20px;
+}
+
+.bg-light {
+    background-color: #c34814 !important;
+}
+
+.card-gryffindor {
+    background-color: #9B2226;
+    color: white;
+}
+
+.card-slytherin {
+    background-color: #1B4D3E;
+    color: white;
+}
+
+.card-hufflepuff {
+    background-color: #e1d615;
+    color: black;
+}
+
+.card-ravenclaw {
+    background-color: #0f2e69;
+    color: white;
+}
+
+.hero__gryffindor {
+ background: #b4423a;
+ background:
+  linear-gradient(90deg,
+  rgb(233, 99, 37) 0%,
+  rgba(194, 45, 45, 1) 50%,
+  rgba(222, 98, 40, 1) 100%);
+}
+
+.hero__hufflepuff {
+background: #eef20c;
+background: 
+linear-gradient(90deg,
+ rgba(238, 242, 12, 1) 0%,
+ rgba(240, 173, 41, 1) 50%,
+ rgba(250, 168, 15, 1) 100%);
+}
+
+.hero__slytheryn {
+background: #6fd179;
+background: 
+linear-gradient(90deg,
+rgba(111, 209, 121, 1) 0%,
+rgba(86, 128, 79, 1) 50%, 
+rgba(37, 77, 34, 1) 100%);
+}
+
+.hero__ravenclaw {
+background: #665606;
+background: linear-gradient(90deg, 
+rgba(102, 86, 6, 1) 0%, 
+rgba(28, 33, 99, 1) 50%, 
+rgba(21, 18, 56, 1) 100%);
+}
+
+ body.hero__ravenclaw {
+            background-color: #0f2e69; 
+            color: white; 
+        }
+        .detalle p, .detalle h2 {
+            color: white; 
+        }
