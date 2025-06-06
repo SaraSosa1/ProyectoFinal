@@ -1,0 +1,21 @@
+@use "./variables";
+
+.card-gryffindor { 
+   background-color: variables.$color-gryffindor ;  
+   color: white;
+}
+    
+.card-slytherin {  
+  background-color: variables.$color-slytherin ; 
+  color: white;
+ }
+   
+ .card-hufflepuff {  
+  background-color: variables.$color-hufflepuff ;  
+  color: black;
+}
+
+.card-ravenclaw {  
+  background-color: variables.$color-ravenclaw ;  
+  color: black;
+}
