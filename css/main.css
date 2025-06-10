@@ -28,7 +28,7 @@ h1 {
 
 .hero__ravenclaw {
   background: #665606;
-  background: linear-gradient(90deg, rgb(102, 86, 6) 0%, rgb(28, 33, 99) 50%, rgb(21, 18, 56) 100%);
+  background: linear-gradient(90deg, rgb(235, 204, 47) 0%, rgb(181, 186, 247) 50%, rgb(106, 95, 236) 100%);
 }
 
 .card-gryffindor {
@@ -49,6 +49,14 @@ h1 {
 .card-ravenclaw {
   background-color: #133d93;
   color: black;
+}
+
+.card-body {
+  flex: 1 1 auto;
+}
+
+.row {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
