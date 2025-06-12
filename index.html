@@ -26,9 +26,9 @@
     <title>Colegio de Magia y Hechicería</title>
 </head>
 <body class="hero__image">
-<div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+        <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">Inicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,7 +52,10 @@
         </div>
     </nav>
     
-    <div class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+    <div class="text-center my-5">
         <h1 class="fw-bold">
             Hogwarts Colegio de Magia y Hechicería
         </h1>
@@ -60,19 +63,22 @@
             Hogwarts es un colegio para brujas y magos al que se accede tras recibir una invitación que entrega un búho. Hay ciento cuarenta y dos escaleras que se mueven como si tuvieran vida propia. Sus fundadores fueron Godric Gryffindor, Rowena Ravenclaw, Helga Hufflepuff y Salazar Slytherin, en cuyo honor se pusieron nombre a las diferentes casas.  
         </p>
     </div>
+    </div>
+    </div>
+    </div>
 
-    <div class="row">
+    <div class="row my-5">
         <div class="col-md-6">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./images/howards1.jpg" class="d-block w-100" alt="Descripción de imagen 1">
+                        <img src="./images/howards1.jpg" class="d-block w-100" alt="Castillo Hogwarts" style="height: 400px; object-fit: contain;">
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/howards2.jpg" class="d-block w-100" alt="Descripción de imagen 2">
+                        <img src="./images/howards2.jpg" class="d-block w-100" alt="Castillo Hogwarts 2" style="height: 400px; object-fit: contain;">
                     </div>
                     <div class="carousel-item">
-                        <img src="./images/howards3.jpg" class="d-block w-100" alt="Descripción de imagen 3">
+                        <img src="./images/howards3.jpg" class="d-block w-100" alt="Castillo Hogwarts 3" style="height: 400px; object-fit: contain;">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -113,7 +119,7 @@
                     </div>               
                 </div>               
                 <div class="col-12 py-3">                  
-                    <div class="card card-ravenclaw text-white">                        
+                    <div class="card" style="background-color: #001f3f; color: white;">                        
                         <div class="card-body">                           
                             <h2>Ravenclaw</h2>                           
                             <p>Busca alumnado inteligente que sea creativo, curioso y que siempre busque la respuesta.</p>                        
@@ -124,18 +130,28 @@
         </div>
     </div>
 
-    <footer class="text-center py-5">
-        <h2>Mapa</h2>
-        <div class="card mx-auto" style="width: 80%;">
-            <img src="./images/mapahowarts.jpg" class="card-img-top" alt="mapahowarts">
+  <footer class="text-center py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Mapa de Hogwarts</h2>
+        <div class="card mx-auto mb-4" style="width: 40%;">
+            <img src="./images/mapahowarts.jpg" class="card-img-top" alt="Mapa de Hogwarts, un castillo en las Tierras Altas de Escocia" style="height: auto; object-fit: contain;">
             <div class="card-body">
                 <p class="card-text">
-                    Hogwarts​ Ubicado en un enorme y extenso castillo en las Tierras Altas de Escocia
+                    Hogwarts​ está ubicado en un enorme y extenso castillo en las Tierras Altas de Escocia, conocido por su rica historia y sus misterios.
                 </p>
             </div>
         </div>
-    </footer>
-</div>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/t2_3A4uGPhY?si=mh1m5uYyoUs5pO7t" title="Video sobre Hogwarts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="mt-4">
+        <p>&copy; 2023 Hogwarts School of Witchcraft and Wizardry. Todos los derechos reservados.</p>
+        <div>
+            <a href="#">Política de privacidad</a> | 
+            <a href="#">Términos de servicio</a> |
+            <a href="#">Síguenos en redes sociales</a>
+        </div>
+    </div>
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>

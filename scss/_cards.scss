@@ -29,3 +29,20 @@
     margin-bottom: 1rem; 
 }
 
+    .gryffindor-page {
+       .card {
+           
+           background-color: #A500; 
+           border: 2px solid #900; 
+       }
+
+       .card img {
+           height: 100%; 
+           object-fit: cover; 
+       }
+
+       .card-body {
+           padding: 10px; 
+           color: #fff; 
+       }
+   }

@@ -59,4 +59,17 @@ h1 {
   margin-bottom: 1rem;
 }
 
+.gryffindor-page .card {
+  background-color: rgba(170, 85, 0, 0);
+  border: 2px solid #900;
+}
+.gryffindor-page .card img {
+  height: 100%;
+  object-fit: cover;
+}
+.gryffindor-page .card-body {
+  padding: 10px;
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
